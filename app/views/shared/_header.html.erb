@@ -1,0 +1,29 @@
+<header class="navbar navbar-fixed-top navbar-default" id="header">
+  <div class="navbar-inner">
+    <div class="header-container">
+      <!-- 左側 -->
+      <div class="left_box">
+        <span class="help"><%= link_to "Help", '#' %></span>
+      </div>
+      <!-- ロゴ -->
+      <div class="logo_box">
+        <%= link_to image_tag('logo/logo.png'), root_path %>
+      </div>
+      <!-- 右側 -->
+      <div class="right_box">
+        <!-- 検索フィールド -->
+        <form class="navbar-form navbar-right" role="search">
+            <input type="text" class="form-control" placeholder="Search">
+            <%= image_tag('icons/search.png') %>
+            <!-- <button type="submit" class="btn btn-default"></button> -->
+        </form>
+
+      </div>
+              <!-- ユーザー -->
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to 'Account', '#', id: "main_btn" %></li>
+        </ul>
+
+    </div>
+  </div>
+</header>

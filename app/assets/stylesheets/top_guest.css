@@ -1,0 +1,128 @@
+#contents {
+  position: absolute;
+  top: 120px;
+  left: 60px;
+  width: 700px;
+  color: #fff;
+}
+#contents h1 {
+  font-size: 120px;
+  font-weight: normal;
+  line-height: 0.9;
+  margin-bottom: 20px;
+  letter-spacing: -0
+  .03em;
+}
+#contents p {
+  color: white;
+}
+
+.global-nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn-facebook {
+  margin-top: 30px;
+}
+
+.btn a {
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px 30px;
+  transition: 0.2s;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  background: transparent;
+}
+.btn a:hover {
+  background: rgba(0, 0, 200, 0.5);
+
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#99000000,EndColorStr=#99000000);
+}
+.btn a.active {
+  color: #cd4b8d;
+  background: white;
+}
+.btn a i.fa {
+  margin-right: 15px;
+}
+
+.btn-tab .btn {
+  float: left;
+  margin: 0;
+  margin: 10px -1px !important;
+  padding: 0px;
+
+}
+.btn-tab .btn a {
+  font-size: 12px;
+  border-radius: 0;
+}
+.btn-tab .btn:not(:last-child) a {
+  border-right: none;
+}
+.btn-tab .btn:first-child a {
+  border-radius: 5px 0 0 5px;
+}
+.btn-tab .btn:last-child a {
+  border-radius: 0 5px 5px 0;
+}
+
+
+/*  ################################################################
+  SITE WRAPS
+################################################################# */
+
+#headerwrap {
+  background-image: url("1.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  min-height: 600px;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  /*text-align: center;*/
+}
+
+#headerwrap h3, h5 {
+  color: white;
+  font-weight: 400;
+}
+
+#headerwrap h1 {
+    font-weight: 1.3em; 
+  color: white;
+  margin-bottom: 25px;
+}
+
+#headerwrap p {
+  font-size: 1.2em;
+}
+
+#headerwrap h1, p, a {
+  font-family: 'Nunito', sans-serif;
+}
+
+#headerwrap .img-responsive {
+  margin: 0 auto;
+}
+
+/* Services Wrap */
+#service {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+#service i {
+  color: #0033CC;
+  font-size: 60px;
+  padding: 15px;
+}
+
+

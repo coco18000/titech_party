@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FakePlaces</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+<link rel="stylesheet" href="/assets/css/bootstrap.css">
+
+
+
+<link href="/assets/cdn/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="/assets/cdn/Lato.css" rel="stylesheet" type="text/css">
+<link href="/assets/cdn/Nunito.css" rel="stylesheet" type="text/css">
+<link href="/assets/cdn/Raleway.css" rel="stylesheet" type="text/css">
+
+<link href="assets/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+
+</head>
+<body>
+  <div id="headerwrap">
+      <div class="container">
+        <nav class="global-nav">
+          <ul class="btn-tab">
+            <li class="btn"><a href="javascript:void(0)" class="active"><i class="fa fa-home fa-lg"></i>HOME</a></li>
+            <li class="btn"><a href="javascript:void(0)"><i class="fa fa-globe fa-lg"></i>ABOUT</a></li>
+            <li class="btn"><a href="javascript:void(0)"><i class="fa fa-question-circle fa"></i>HELP</a></li>
+            <li class="btn"><a href="javascript:void(0)"><i class="fa fa-envelope fa-lg"></i>CONTACT</a></li>
+          </ul>
+        </nav>
+        <div id="contents">
+          <h1>FAKE<br>PLACES</h1>
+          <p>「あなた今どこにいるの？」<br>
+          『今は喫茶店にいるよ。』 <br>
+          「え、ほんと？」<br>
+          『ほんとだよ！位置情報見てみてよ！！』</p>
+          <div class="btn"><a href="javascript:void(0)" class="btn-facebook"><i class="fa fa-facebook"></i>Facebookで無料登録</a></div>
+        </div>
+      </div> <!-- /container -->
+  </div><!-- /headerwrap -->
+
+  <!-- *****************************************************************************************************************
+   SERVICE LOGOS
+   ***************************************************************************************************************** -->
+   <div id="service">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-md-4">
+          <i class="fa fa-map-marker"></i>
+          <h4>気軽に位置情報を偽装する</h4>
+          <p>心配なときはとりあえず偽装しておきましょう。</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fa fa-clock-o"></i>
+          <h4>時間を指定して位置情報を偽装する</h4>
+          <p>時間の範囲を指定して偽装することも可能です。</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fa fa-car"></i>
+          <h4>2つの場所を指定して位置情報を偽装する</h4>
+          <p>移動しているかのような振る舞いを実現します。</p>
+        </div>
+      </div>
+    </div><! --/container -->
+  </div><! --/service -->
+
+  <%= render 'shared/footer' %>
+</body>
+</html>
